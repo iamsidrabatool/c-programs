@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+void line();
+int main()
+{
+	cout<<"hello world"<<endl;
+	line();
+	cout<<"first program"<<endl;
+	line();
+	
+}
+
+void line()
+{
+	cout<<"============="<<endl;
+	cout<<"\xCD"<<endl;
+}
