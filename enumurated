@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+enum boolean{false,true} ;
+int main()
+{
+	char ch;
+	boolean muslium=false;
+	cout<<"ARE YOU MUuslim";
+	cin>>ch;
+	if(ch=='y'|| ch=='y')
+	muslium=true;
+	if(muslium)
+	cout<<"\nYou are muslium";
+	else
+	cout<<"|n You are not muslium";
+	return 0;
+}
