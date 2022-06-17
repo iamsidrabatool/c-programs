@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+string welcomeMessage(string name);
+int main()
+{
+	string myName ="sidra";
+	cout<<welcomeMessage(myName);
+	
+}
+string welcomeMessage(string Name)
+{
+	string myMessage = "welcome"+Name;
+	return myMessage;
+	
+}
